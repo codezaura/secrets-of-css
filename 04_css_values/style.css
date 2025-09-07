@@ -1,0 +1,15 @@
+p {
+  /* *** Absolute values *** */
+  font-size: 16px;
+  /* font-size: 16pc; */
+  /* font-size: 1em; */
+  /* font-size: 1rem; */
+  /* font-size: 16pt; */
+
+  /* *** Relative values *** */
+  /* font-size: 1vw; */
+  /* font-size: 1dvw; */
+  /* font-size: 1vh; */
+  /* font-size: 1dvh; */
+  /* font-size: 2%; */
+}
