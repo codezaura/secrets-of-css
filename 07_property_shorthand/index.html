@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    .container {
+      margin: 100px;
+    }
+
+    /* ***********************************
+    * margin | padding property shorthands
+    *********************************** */
+    .box {
+      /* 100px from each sides */
+      margin: 100px;
+
+      /* 100px from top-bottom | 50px from left-right */
+      /* Individual */
+      margin-block: 100px;
+      margin-inline: 50px;
+
+      /* Shorthand */
+      margin: 100px 50px;
+
+      /* 100px from top | 50px from right | 150px from bottom | 0px from left */
+      /* Individual */
+      margin-top: 100px;    /* margin-block-start: 100px; */
+      margin-right: 50px;   /* margin-inline-end: 50px; */
+      margin-bottom: 150px; /* margin-block-end: 150px; */
+      margin-left: 0px;     /* margin-inline-start: 0px; */
+
+      /* Shorthand */
+      margin: 100px 50px 150px 0px;
+
+      padding: 20px 30px 40px 10px;
+    }
+
+    /* ****************************
+    * border property shorthand
+    **************************** */
+    .box {
+      /* border properties individual */
+      border-width: 2px;
+      border-style: solid;
+      border-color: crimson;
+
+      /* border properties shorthand */
+      border: 2px solid crimson;
+
+      border-top: 2px dashed palegreen;
+      border-bottom: 2px solid darkcyan;
+      border-left: 2px dashed rebeccapurple;
+      border-right: 2px solid firebrick;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box"></div>
+  </div>
+  
+</body>
+</html>
