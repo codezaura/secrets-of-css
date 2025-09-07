@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+    /* id selector */
+    #heading {
+      color: chocolate;
+    }
+
+    /* class selector */
+    .container {
+      width: 200px;
+      height: 200px;
+      background-color: aqua;
+      padding: 10px;
+    }
+
+    .box {
+      width: 50px;
+      height: 50px;
+      background-color: blueviolet;
+    }
+
+    /* nested universal selector */
+    .container * {
+      border: 2px solid greenyellow;
+    }
+
+    /* decendant selector */
+    header > h2 {
+      color: darkred;
+    }
+
+    /* nested class selector */
+    .container .box {
+      background-color: crimson;
+    }
+
+    /* nested tag selector */
+    .container p {
+      color: darkmagenta;
+    }
+
+    /* attribute selector */
+    main section[data-area='hero section'] {
+      padding: 10px;
+    }
+
+    /* nth-child selector */
+    main:nth-child(2) {
+      padding: 20px;
+    }
+
+    /* pseudo selector */
+    section[data-area='button section'] button:hover {
+      border: 2px dashed red;
+    }
+
+    /* combinator selector */
+    section[data-area='combination'] h4, section[data-area='combination'] p {
+      color: coral;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 id="heading">CSS Wizard!</h1>
+
+  <div class="container">
+    <div class="box"></div>
+    <p>Hello CSS wizard!</p>
+  </div>
+
+  <div class="box"></div>
+
+  <header>
+    <h2>CSS is cool!</h2>
+  </header>
+
+  <main>
+    <section data-area="hero section"></section>
+    <section data-area="main section"></section>
+    <section data-area="button section">
+      <button>Hover</button>
+    </section>
+
+    <section data-area="combination">
+      <h4>I am heading</h4>
+      <p>I am para</p>
+    </section>
+  </main>
+  
+</body>
+</html>
