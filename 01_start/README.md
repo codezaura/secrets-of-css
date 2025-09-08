@@ -3,7 +3,7 @@
 I tried to **simplify**.<br />
 *Ways of styling with CSS*.
 
-[Preview ↗](https://codesandbox.io/p/sandbox/01-start-6kt69m?file=%2Findex.html%3A23%2C1)
+<a href="https://codesandbox.io/p/sandbox/01-start-6kt69m?file=%2Findex.html%3A23%2C1" target="_blank">Preview ↗</a>
 
 1. Inline Styling
 ```html
