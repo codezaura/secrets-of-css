@@ -1,15 +1,19 @@
 p {
-  /* *** Absolute values *** */
-  font-size: 16px;
-  /* font-size: 16pc; */
-  /* font-size: 1em; */
-  /* font-size: 1rem; */
-  /* font-size: 16pt; */
+  /* 🔵 Absolute values */
+  font-size: 16px;   
+  /* font-size: 16pt;   */  
+  /* font-size: 16pc;   */  
 
-  /* *** Relative values *** */
-  /* font-size: 1vw; */
-  /* font-size: 1dvw; */
-  /* font-size: 1vh; */
-  /* font-size: 1dvh; */
-  /* font-size: 2%; */
+  /* 🟢 Font-relative */
+  /* font-size: 1em;    */
+  /* font-size: 1rem;   */
+
+  /* 🟣 Viewport-relative */
+  /* font-size: 1vw;    */
+  /* font-size: 1dvw;   */
+  /* font-size: 1vh;    */
+  /* font-size: 1dvh;   */
+
+  /* 🟡 Percentage */
+  /* font-size: 120%;    */
 }
